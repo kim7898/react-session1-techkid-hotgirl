@@ -13,7 +13,7 @@ class Navbar extends Component {
 
                         <img alt ="" src="https://static.topcv.vn/company_logos/techkids-coding-school-5839bff44088b.jpg"/>
                     </div>
-                    <ProfilePanel/>
+                    <ProfilePanel onLogin={this.props.onLogin} username={this.props.username}/>
                 </div>
             </div>
         )
